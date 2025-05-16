@@ -1,0 +1,14 @@
+body{
+   color:white;text-align: justify;
+   background-image:  url(Foot.jpg ) ;
+   
+}
+.para{
+   line-height: 56 px ;
+   letter-spacing: 0,4 em;
+   word-spacing:   46 px;
+   text-align: justify-all;
+   border:inset medium  red
+}
+
+

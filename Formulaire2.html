@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="design3.css"/>
+  
+</head>
+<body >
+ <form  method="post" action=" traitment.php" >
+<fieldset>
+<legend>Etat Civil</legend> <! Titre du fieldset >
+<label for="nom"> Nom :</label>
+  
+<input type="text" name="nom" id="nom"   tabindex="10" required/><br />
+<label for="prenom">Prénom:</label>
+<input type="text" name="prenom" id="prenom" tabindex="20"  required/><br/>
+<label for="email"> E-mail: </label>
+<input type="email" name="email" id="email" tabindex="30"  required/><br/>
+  <label for="date"> Date :</label>
+<input type="date" name="date" id="date" tabindex="40"  required/><br/>
+  <label for="contact"> Contact:</label>
+<input type="tel" name="Contact" id="Contact" tabindex="50"  required/>
+</fieldset>
+<fieldset>
+<legend>Les Diplomes </legend> <! Titre du fieldset >
+<p>
+Cochez les diplomes que vous avez :<br>
+<input type="checkbox" name="CEP" id="CEP" tabindex="60" /> <label for="CEP">CEP
+</label><br/>
+  <input type="checkbox" name="BEPC" id="BEPC" tabindex="70" /> <label for="BEPC">BEPC
+</label><br/>
+  <input type="checkbox" name="CAP" id="CAP" tabindex="80" /> <label for="CAP">CAP
+</label><br/>
+  <input type="checkbox" name="BAC" id="BAC" tabindex="90" /> <label for="BAC">BAC
+</label><br/>
+<label for="precisions">Si "Autre", veuillez préciser :</label><br/>
+  
+<textarea name="adresse" id="adresse"  cols="50" rows="2"  ></textarea>
+</p>
+</fieldset>
+  
+  <p>
+    <label for="adresse">Votre adresse:</label>
+    <input type="text" name="adresse" id="adresse" required/>
+  </p>
+  <fieldset>
+    <legend> Pays</legend>
+  <label for="pays">Dans quel pays habitez-vous ?</label><br />
+<select name="pays" id="pays">
+<optgroup label="Europe">
+<option value="france">France</option>
+<option value="espagne">Espagne</option>
+<option value="italie">Italie</option>
+ <option value="Belgique">Belgique</option>
+ <option value="Suisse">Suisse</option>
+</optgroup>
+
+<optgroup label="Amérique">
+
+ 
+<option value="canada">Canada</option>
+
+<option value="etats-unis">Etats-Unis</option>
+  <option value="argentine">Argentine</option>
+  <option value="Brésil">Brésil</option>
+  <option value="Mexique">Mexique</option>
+</optgroup>
+<optgroup label="Asie">
+<option value="chine">Chine</option>
+
+<option value="japon">Japon</option>
+  <option value="Inde">Inde</option>
+  <option value="Coré du sud">Coré du sud</option>
+</optgroup>
+  
+<optgroup label="Afrique">
+<option value="Bénin">Bénin</option>
+<option value="Sénégal">Sénégal</option>
+<option value="Mali">Mali</option>
+<option value="Tunisie">Tunisie</option>
+<option value="Afrique du sud">Afrique du sud</option>
+</optgroup>
+</select>
+</fieldset>
+    <p>
+      <input type="submit"  value="Envoyer" />
+      <input type="reset"  value="Effacer"/>
+      <input type="button"  value="Quitter" />
+    
+    
+    </p>
+
+
+</form>
+
+  
+  
+</body>
+</html>

@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;/* Colle les bordures  entre elles */
+    
+}
+
+td {
+    border: 2px solid black ;/* Définir la bordure des cellules */
+    
+    
+    
+    
+}
+.italique{ font-style: italic;/*affiche le contenu en italique*/
+    
+}
+.gras{
+    font-weight: bold;/*Affiche le contenu de la cellule en gras*/
+}
+
+#rouge {
+	background-color: red;/* Définir la couleur de la  cellule ayant la classe rouge */
+  
+	color: while;
+}
+
+#Bleu{
+	background-color:blue;/* Définir la couleur de la  cellule ayant la classe bleu*/
+  
+}
+
+#Verte {
+	background-color: green;/* Définir la couleur de la  cellule ayant la classe verte */
+  
+}
+#beige {
+	background-color: navajowhite;/* Définir la couleur de la  cellule ayant la classe beige */
+  
+}
+#marron {
+	background-color: maroon;/* Définir la couleur de la  cellule ayant la classe marron */
+  
+}
+#jaune{
+    background-color: yellow /* Définir la couleur de la  cellule ayant la classe jaune */
+  
+}

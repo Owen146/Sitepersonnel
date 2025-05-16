@@ -1,0 +1,14 @@
+body{background-color: yellow}
+
+
+.h2{text-align: center}
+table {
+    border-collapse: collapse; /* Combine les bordures */
+}
+
+td,th {
+    border: 1px solid black; /* Définir la bordure des cellules */
+     
+}
+
+
